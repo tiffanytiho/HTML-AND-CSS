@@ -1,0 +1,30 @@
+.box {
+  height: 500px;
+  background-color: black;
+  justify-content: center;
+  align-items: center; /* Centre verticalement */
+  display: flex;
+
+}
+
+.conteneur {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    margin: 100px;
+    padding: 50px;
+    gap:10px;
+
+}
+
+.ligne-1 {
+	background-color: black;
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+    height: 50px;
+}
+
+.derniere{
+	height: 50px;
+	grid-column: 1/4;
+	background-color: black;
+}
